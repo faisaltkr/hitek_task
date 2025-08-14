@@ -13,8 +13,19 @@
  - Setup .env
  - Setup Database
  - Run migrations and seeder: 
- 
+
 ```
     php artisan migrate --seed
 ```
 
+### API Endpoints : 
+    ```
+        GET : /api/handsets
+
+        POST: /api/handsets
+
+    ```
+
+### View
+    ```
+        {hostname}/handsets
